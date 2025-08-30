@@ -1,6 +1,5 @@
 setuptools>=65.0.0
 wheel
---upgrade pip
 flask==2.3.3
 pandas==2.2.3
 numpy==1.26.4
@@ -9,3 +8,4 @@ joblib==1.5.1
 gunicorn
 build==0.10.0
 cython==0.29.36
+
