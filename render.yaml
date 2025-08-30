@@ -1,0 +1,12 @@
+# Exported from Render on 2025-08-30T11:45:30Z
+services:
+- type: web
+  name: credit-score-api
+  runtime: python
+  repo: https://github.com/ZaurValiyev/credit-score-api
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: gunicorn app:app
+  autoDeployTrigger: commit
+version: "1"
