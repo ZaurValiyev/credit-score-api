@@ -1,8 +1,11 @@
+setuptools>=65.0.0
+wheel
+--upgrade pip
 flask==2.3.3
 pandas==2.2.3
 numpy==1.26.4
 scikit-learn==1.2.2
 joblib==1.5.1
 gunicorn
-setuptools>=65.0.0
-wheel
+build==0.10.0
+cython==0.29.36
